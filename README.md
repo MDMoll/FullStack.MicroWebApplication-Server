@@ -1,3 +1,4 @@
+![Zip-Budget-Splash-Screen](https://github.com/MDMoll/Zip-Budget-Server/blob/master/ZBLogoMin.png)
 # Micro Web Application - Server
 * **Objective** - to create an implementation of a small web service
 * **Purpose** - to demonstrate the construction of a full-stacked web-application
