@@ -10,22 +10,11 @@
 * **Data Layer** - MySQL
 * **Cloud** - Heroku
 
-### Installation
-* Install [NodeJs](https://nodejs.org/en/). From terminal execute
-    * `brew install node`
-* Install [Angular](http://angular.io/). From terminal execute
-    * `brew install angular-cli`
-* Install [AngularCli](). From terminal execute
-    * `npm install -g @angular/cli`
-* Install [Heroku](). From terminal execute
-	* `brew tap heroku/brew && brew install heroku`
-
 <hr><hr>
-
 
 Summary:
 
-	A budgeting application (example: an electronic checkbook), that allows tagging transactions and visualizes spending over time to help plan future budgets.
+	An application that tracks transactions over time to help plan future budgets.
 
 ### Money Management Application
 
