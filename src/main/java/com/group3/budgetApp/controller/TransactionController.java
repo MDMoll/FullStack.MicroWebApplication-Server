@@ -53,16 +53,6 @@ public class TransactionController {
         }
     }
     
-    @DeleteMapping("/transaction/{id}")
-    public ResponseEntity<String> transactionRemove(@PathVariable Integer id) {
-        try {
-            transactionServices.deleteTransaction(id);
-            return new ResponseEntity<>("Success", HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>("Failure", HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-    }
-    
     @GetMapping("/transaction/latest")
     public ResponseEntity<Iterable<Transaction>> getLatestTransactionsByPage() {
         try {
